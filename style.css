@@ -1,13 +1,25 @@
 body {
-  font-family: 'Comic Sans MS', cursive;
+/*   font-family: 'Comic Sans MS', cursive; */
+  font-family: 'Pixelify Sans', sans-serif;
   background-color: #fdf6e3;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+canvas {
+  max-width: 100%;
+  height: auto;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 .container {
   text-align: center;
   background: #ffeaa7;
