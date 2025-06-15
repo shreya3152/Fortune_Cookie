@@ -1,0 +1,70 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fdf6e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #ffeaa7;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.cookie-wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cookie-wrapper img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.cookie-wrapper:hover {
+  transform: scale(1.1);
+}
+
+#fortune {
+  margin-top: 20px;
+  font-size: 20px;
+  font-style: italic;
+  color: #2d3436;
+  min-height: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+#share-btn {
+  background-color: #1da1f2;
+  color: white;
+}
+
+#share-btn:hover {
+  background-color: #0d8ddb;
+}
+
+#reset-btn {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+#reset-btn:hover {
+  background-color: #5a4dcf;
+}

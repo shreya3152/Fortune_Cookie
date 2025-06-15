@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Fortune Cookie Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🥠 Fortune Cookie</h1>
+        <div class="cookie-wrapper" onclick="generateFortune()">
+            <img id="cookie-img" src="Assets/cookie.png" alt="Cookie" />
+        </div>
+        <p id="fortune"></p>
+        <canvas id="fortuneCanvas" width="500" height="300" style="display: none;"></canvas>
+        <button id="share-btn" onclick="downloadAndShare()" style="display: none;"> Share 📤 </button>
+        <button id="reset-btn" onclick="resetCookie()" style="display: none;">🔄 Reset Cookie</button>
+    </div>
+    <audio id="crack-sound" src="Assets/crack.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
