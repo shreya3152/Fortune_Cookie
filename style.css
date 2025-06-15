@@ -1,6 +1,6 @@
 body {
 /*   font-family: 'Comic Sans MS', cursive; */
-font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
   background-color: #fdf6e3;
   display: flex;
   justify-content: center;
@@ -10,6 +10,7 @@ font-family: 'Press Start 2P', cursive;
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  line-height: 1.5;
 }
 canvas {
   max-width: 100%;
